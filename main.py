@@ -4,8 +4,6 @@ import os
 root = input("Enter the path? ")
 
 
-
-totalfiles=0
 filesname=[]
 for path, subdirs, files in os.walk(root):
     for name in files:
